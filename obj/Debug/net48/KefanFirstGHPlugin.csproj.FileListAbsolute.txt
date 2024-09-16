@@ -1,0 +1,15 @@
+D:\软件学习\rhino\grasshopper_advanced\KefanFirstGHPlugin\bin\Debug\net48\KefanFirstGHPlugin.gha
+D:\软件学习\rhino\grasshopper_advanced\KefanFirstGHPlugin\bin\Debug\net48\KefanFirstGHPlugin.pdb
+D:\软件学习\rhino\grasshopper_advanced\KefanFirstGHPlugin\bin\Debug\net48\System.Drawing.Common.dll
+D:\软件学习\rhino\grasshopper_advanced\KefanFirstGHPlugin\obj\Debug\net48\KefanFirstGHPlugin.csproj.AssemblyReference.cache
+D:\软件学习\rhino\grasshopper_advanced\KefanFirstGHPlugin\obj\Debug\net48\KefanFirstGHPlugin.GeneratedMSBuildEditorConfig.editorconfig
+D:\软件学习\rhino\grasshopper_advanced\KefanFirstGHPlugin\obj\Debug\net48\KefanFirstGHPlugin.AssemblyInfoInputs.cache
+D:\软件学习\rhino\grasshopper_advanced\KefanFirstGHPlugin\obj\Debug\net48\KefanFirstGHPlugin.AssemblyInfo.cs
+D:\软件学习\rhino\grasshopper_advanced\KefanFirstGHPlugin\obj\Debug\net48\KefanFirstGHPlugin.csproj.CoreCompileInputs.cache
+D:\软件学习\rhino\grasshopper_advanced\KefanFirstGHPlugin\obj\Debug\net48\KefanFir.9B4B3C3A.Up2Date
+D:\软件学习\rhino\grasshopper_advanced\KefanFirstGHPlugin\obj\Debug\net48\KefanFirstGHPlugin.gha
+D:\软件学习\rhino\grasshopper_advanced\KefanFirstGHPlugin\obj\Debug\net48\KefanFirstGHPlugin.pdb
+D:\软件学习\rhino\grasshopper_advanced\KefanFirstGHPlugin\obj\Debug\net48\KefanFirstGHPlugin.Properties.Resources.resources
+D:\软件学习\rhino\grasshopper_advanced\KefanFirstGHPlugin\obj\Debug\net48\KefanFirstGHPlugin.csproj.GenerateResource.cache
+D:\软件学习\rhino\grasshopper_advanced\KefanFirstGHPlugin\bin\Debug\net48\Resources\add.png
+D:\软件学习\rhino\grasshopper_advanced\KefanFirstGHPlugin\bin\Debug\net48\Resources\KTools.png
