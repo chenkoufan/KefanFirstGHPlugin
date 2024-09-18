@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using Grasshopper.Kernel;
 using Rhino.Geometry;
 
-namespace KefanFirstGHPlugin
+namespace KefanFirstGHPlugin.MathComps
 {
 
     //   █████╗ ██████╗ ██████╗                                       
@@ -36,14 +36,14 @@ namespace KefanFirstGHPlugin
         public AddNumbersComponent()
           : base("AddNumbers", "AddNums",
               "Add two numbers together",
-              "KTools", "Operators")
+              "KTools", "Math")
         {
         }
 
         /// <summary>
         /// Registers all the input parameters for this component.
         /// </summary>
-        protected override void RegisterInputParams(GH_Component.GH_InputParamManager pManager)
+        protected override void RegisterInputParams(GH_InputParamManager pManager)
         {
             pManager.AddNumberParameter("NumberA", "A", "First value to add", GH_ParamAccess.item, 0);
             pManager.AddNumberParameter("NumberB", "B", "Second value to add", GH_ParamAccess.item, 0);
@@ -52,7 +52,7 @@ namespace KefanFirstGHPlugin
         /// <summary> 
         /// Registers all the output parameters for this component.
         /// </summary>
-        protected override void RegisterOutputParams(GH_Component.GH_OutputParamManager pManager)
+        protected override void RegisterOutputParams(GH_OutputParamManager pManager)
         {
             pManager.AddNumberParameter("Result", "R", "Addition result", GH_ParamAccess.item);
         }
@@ -77,6 +77,7 @@ namespace KefanFirstGHPlugin
             // oututs
             DA.SetData(0, sum);
         }
+        public override GH_Exposure Exposure => GH_Exposure.primary;
 
         /// <summary>
         /// Provides an Icon for the component.

@@ -3,7 +3,7 @@
     "KefanFirstGHPlugin": {
       "commandName": "Executable",
       "executablePath": "C:\\Program Files\\Rhino 8\\System\\Rhino.exe",
-      "commandLineArgs": ""
+      "commandLineArgs": "/nosplash /runscript=\"-grasshopper editor load document open D:\\software_study\\rhino\\grasshopper_advanced\\test_gh\\KefanFirstGHPlugin.gh\"\r\n"
     }
   }
 }

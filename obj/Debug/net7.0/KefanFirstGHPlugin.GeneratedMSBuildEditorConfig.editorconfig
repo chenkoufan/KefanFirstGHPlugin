@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = KefanFirstGHPlugin
-build_property.ProjectDir = D:\软件学习\rhino\grasshopper_advanced\KefanFirstGHPlugin\
+build_property.ProjectDir = D:\software_study\rhino\grasshopper_advanced\KefanFirstGHPlugin\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

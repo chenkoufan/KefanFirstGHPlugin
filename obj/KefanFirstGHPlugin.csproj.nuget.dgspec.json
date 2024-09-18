@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\软件学习\\rhino\\grasshopper_advanced\\KefanFirstGHPlugin\\KefanFirstGHPlugin.csproj": {}
+    "D:\\software_study\\rhino\\grasshopper_advanced\\KefanFirstGHPlugin\\KefanFirstGHPlugin.csproj": {}
   },
   "projects": {
-    "D:\\软件学习\\rhino\\grasshopper_advanced\\KefanFirstGHPlugin\\KefanFirstGHPlugin.csproj": {
+    "D:\\software_study\\rhino\\grasshopper_advanced\\KefanFirstGHPlugin\\KefanFirstGHPlugin.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\软件学习\\rhino\\grasshopper_advanced\\KefanFirstGHPlugin\\KefanFirstGHPlugin.csproj",
+        "projectUniqueName": "D:\\software_study\\rhino\\grasshopper_advanced\\KefanFirstGHPlugin\\KefanFirstGHPlugin.csproj",
         "projectName": "KefanFirstGHPlugin",
-        "projectPath": "D:\\软件学习\\rhino\\grasshopper_advanced\\KefanFirstGHPlugin\\KefanFirstGHPlugin.csproj",
+        "projectPath": "D:\\software_study\\rhino\\grasshopper_advanced\\KefanFirstGHPlugin\\KefanFirstGHPlugin.csproj",
         "packagesPath": "C:\\Users\\30276\\.nuget\\packages\\",
-        "outputPath": "D:\\软件学习\\rhino\\grasshopper_advanced\\KefanFirstGHPlugin\\obj\\",
+        "outputPath": "D:\\software_study\\rhino\\grasshopper_advanced\\KefanFirstGHPlugin\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "configFilePaths": [
@@ -59,6 +59,10 @@
             "System.Drawing.Common": {
               "target": "Package",
               "version": "[8.0.8, )"
+            },
+            "System.Resources.Extensions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
             }
           },
           "imports": [
@@ -104,6 +108,10 @@
             "System.Drawing.Common": {
               "target": "Package",
               "version": "[8.0.8, )"
+            },
+            "System.Resources.Extensions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
             }
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"

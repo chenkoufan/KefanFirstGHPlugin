@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("Description of KefanFirstGHPlugin")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+9307c4b5c612a6be4e51aaf20205434a2335ed30")]
 [assembly: System.Reflection.AssemblyProductAttribute("KefanFirstGHPlugin")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KefanFirstGHPlugin")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

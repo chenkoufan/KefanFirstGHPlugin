@@ -4,17 +4,17 @@ using System.Collections.Generic;
 using Grasshopper.Kernel;
 using Rhino.Geometry;
 
-namespace KefanFirstGHPlugin
+namespace KefanFirstGHPlugin.MathComps
 {
-    public class SayHello : GH_Component
+    public class MassAdditionComponent : GH_Component
     {
         /// <summary>
-        /// Initializes a new instance of the MyComponent1 class.
+        /// Initializes a new instance of the MassAdditionComponent class.
         /// </summary>
-        public SayHello()
-          : base("Wassup", "W",
-              "Say hello to my little friend",
-              "Ktools", "Hi")
+        public MassAdditionComponent()
+          : base("Mass Addition", "Mass",
+              "Adds a list of numbers",
+              "KTools", "Math")
         {
         }
 
@@ -23,6 +23,7 @@ namespace KefanFirstGHPlugin
         /// </summary>
         protected override void RegisterInputParams(GH_Component.GH_InputParamManager pManager)
         {
+            pManager.AddNumberParameter("Numbers", "N", "List of numbers to add", GH_ParamAccess.list);
         }
 
         /// <summary>
@@ -30,6 +31,8 @@ namespace KefanFirstGHPlugin
         /// </summary>
         protected override void RegisterOutputParams(GH_Component.GH_OutputParamManager pManager)
         {
+            pManager.AddNumberParameter("Result", "R", "Addition result", GH_ParamAccess.item);
+            pManager.AddNumberParameter("Partial", "PR", "Partial Results", GH_ParamAccess.list);
         }
 
         /// <summary>
@@ -38,7 +41,28 @@ namespace KefanFirstGHPlugin
         /// <param name="DA">The DA object is used to retrieve from inputs and store in outputs.</param>
         protected override void SolveInstance(IGH_DataAccess DA)
         {
+            List<double> vals = new List<double>();
+            if (!DA.GetDataList(0, vals)) return;
+
+            // math
+            double sum = 0;
+            List<double> partials = new List<double>();
+
+            foreach (double v in vals)
+            {
+                sum += v;
+                partials.Add(sum);
+
+            }
+
+            //outputs
+            DA.SetData(0, sum);
+            DA.SetDataList(1, partials);
+
+
         }
+
+        public override GH_Exposure Exposure => GH_Exposure.primary;
 
         /// <summary>
         /// Provides an Icon for the component.
@@ -49,7 +73,7 @@ namespace KefanFirstGHPlugin
             {
                 //You can add image files to your project resources and access them like this:
                 // return Resources.IconForThisComponent;
-                return Properties.Resources.van;
+                return Properties.Resources.mass;
                 return null;
             }
         }
@@ -59,7 +83,7 @@ namespace KefanFirstGHPlugin
         /// </summary>
         public override Guid ComponentGuid
         {
-            get { return new Guid("2C3434D4-D465-44D6-8966-5484ED825D25"); }
+            get { return new Guid("A1AAF97E-BC3C-46E5-B006-40B9399E4C13"); }
         }
     }
 }
